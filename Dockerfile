@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:9.10.1
 
 COPY getDocker.sh /var/lib/getDocker.sh
 RUN sh /var/lib/getDocker.sh
